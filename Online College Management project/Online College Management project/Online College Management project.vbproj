@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{F2A10342-BC15-49E3-B8C0-016E416CD270}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Online_College_Management_project</RootNamespace>
+    <AssemblyName>Online College Management project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Online College Management project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Online College Management project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1732235.jpg" />
+    <Content Include="aboutus.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="admerror.aspx" />
+    <Content Include="admfac.aspx" />
+    <Content Include="admfreg.aspx" />
+    <Content Include="admindashboard.aspx" />
+    <Content Include="adminlogin.aspx" />
+    <Content Include="admlib.aspx" />
+    <Content Include="admreg.aspx" />
+    <Content Include="admstd.aspx" />
+    <Content Include="admstdreg.aspx" />
+    <Content Include="BBA1.jpg" />
+    <Content Include="BBA2.jpg" />
+    <Content Include="BBA3.jpg" />
+    <Content Include="BBA4.jpg" />
+    <Content Include="BBA5.jpg" />
+    <Content Include="BBA6.jpg" />
+    <Content Include="BCA3.jpg" />
+    <Content Include="BCA6.jpg" />
+    <Content Include="BCA1.jpg" />
+    <Content Include="BCA2.jpg" />
+    <Content Include="BCA4.jpg" />
+    <Content Include="BCA5.jpg" />
+    <Content Include="black register.jpg" />
+    <Content Include="CAGC2.JPG" />
+    <Content Include="CAGC3.jpg" />
+    <Content Include="cagc4.jpg" />
+    <Content Include="changepic.aspx" />
+    <Content Include="Colorful-Geometric-Simple-Background-Image.jpg" />
+    <Content Include="contactus.aspx" />
+    <Content Include="cool-background.jpg" />
+    <Content Include="darkbg.jpg" />
+    <Content Include="flib.aspx" />
+    <Content Include="facultyreg.aspx" />
+    <Content Include="fdashboard.aspx" />
+    <Content Include="flibpage.aspx" />
+    <Content Include="fprofile.aspx" />
+    <Content Include="freg.jpg" />
+    <Content Include="home.aspx" />
+    <Content Include="homepage.aspx" />
+    <Content Include="html-color-codes-color-tutorials-hero.jpg" />
+    <Content Include="IMG-20210228-WA0003.jpg" />
+    <Content Include="IMG-20210228-WA0004.jpg" />
+    <Content Include="IMG-20210228-WA0009.jpg" />
+    <Content Include="IMG-20210228-WA0010.jpg" />
+    <Content Include="IMG-20210301-WA0000.jpg" />
+    <Content Include="libpage.aspx" />
+    <Content Include="library.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="logindone.aspx" />
+    <Content Include="loginicon.jpg" />
+    <Content Include="loginpag.aspx" />
+    <Content Include="logins.aspx" />
+    <Content Include="online-application-icon-8.jpg" />
+    <Content Include="pattern-background.jpg" />
+    <Content Include="PROCEED-BUTTON-PNG.jpg" />
+    <Content Include="register-button-260nw-210405904.jpg" />
+    <Content Include="register.aspx" />
+    <Content Include="Register.png" />
+    <Content Include="register1.jpg" />
+    <Content Include="Resumes.jpg" />
+    <Content Include="routinepage.aspx" />
+    <Content Include="Screenshot %2815%29.png" />
+    <Content Include="Screenshot %2817%29.png" />
+    <Content Include="sdashboard.aspx" />
+    <Content Include="slib.aspx" />
+    <Content Include="sprofile.aspx" />
+    <Content Include="stdregistration.jpg" />
+    <Content Include="studentlogin.aspx" />
+    <Content Include="studentreg.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="CAGC1.jpg" />
+    <Content Include="syllabus-word-cloud-drawings_csp46680435.jpg" />
+    <Content Include="syllabus.aspx" />
+    <Content Include="vanessa-nachivon-proceed.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="facultypage.aspx" />
+    <Content Include="facultylogin.aspx" />
+    <Content Include="errorpage.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="sdata.aspx" />
+    <Content Include="WebForm6.aspx" />
+    <Content Include="fchangepic.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.designer.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aboutus.aspx.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admerror.aspx.designer.vb">
+      <DependentUpon>admerror.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admerror.aspx.vb">
+      <DependentUpon>admerror.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admfac.aspx.designer.vb">
+      <DependentUpon>admfac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admfac.aspx.vb">
+      <DependentUpon>admfac.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admfreg.aspx.designer.vb">
+      <DependentUpon>admfreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admfreg.aspx.vb">
+      <DependentUpon>admfreg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admindashboard.aspx.designer.vb">
+      <DependentUpon>admindashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admindashboard.aspx.vb">
+      <DependentUpon>admindashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.vb">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.aspx.vb">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admlib.aspx.designer.vb">
+      <DependentUpon>admlib.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admlib.aspx.vb">
+      <DependentUpon>admlib.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admreg.aspx.designer.vb">
+      <DependentUpon>admreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admreg.aspx.vb">
+      <DependentUpon>admreg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admstd.aspx.designer.vb">
+      <DependentUpon>admstd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admstd.aspx.vb">
+      <DependentUpon>admstd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admstdreg.aspx.designer.vb">
+      <DependentUpon>admstdreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admstdreg.aspx.vb">
+      <DependentUpon>admstdreg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="changepic.aspx.designer.vb">
+      <DependentUpon>changepic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="changepic.aspx.vb">
+      <DependentUpon>changepic.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="contactus.aspx.designer.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactus.aspx.vb">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="flib.aspx.designer.vb">
+      <DependentUpon>flib.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="flib.aspx.vb">
+      <DependentUpon>flib.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="facultyreg.aspx.designer.vb">
+      <DependentUpon>facultyreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultyreg.aspx.vb">
+      <DependentUpon>facultyreg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="fdashboard.aspx.designer.vb">
+      <DependentUpon>fdashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fdashboard.aspx.vb">
+      <DependentUpon>fdashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="flibpage.aspx.designer.vb">
+      <DependentUpon>flibpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="flibpage.aspx.vb">
+      <DependentUpon>flibpage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="fprofile.aspx.designer.vb">
+      <DependentUpon>fprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fprofile.aspx.vb">
+      <DependentUpon>fprofile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="libpage.aspx.designer.vb">
+      <DependentUpon>libpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libpage.aspx.vb">
+      <DependentUpon>libpage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="logindone.aspx.designer.vb">
+      <DependentUpon>logindone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logindone.aspx.vb">
+      <DependentUpon>logindone.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="loginpag.aspx.designer.vb">
+      <DependentUpon>loginpag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loginpag.aspx.vb">
+      <DependentUpon>loginpag.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="logins.aspx.designer.vb">
+      <DependentUpon>logins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logins.aspx.vb">
+      <DependentUpon>logins.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="register.aspx.designer.vb">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.vb">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="routinepage.aspx.designer.vb">
+      <DependentUpon>routinepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="routinepage.aspx.vb">
+      <DependentUpon>routinepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="sdashboard.aspx.designer.vb">
+      <DependentUpon>sdashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sdashboard.aspx.vb">
+      <DependentUpon>sdashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="facultypage.aspx.designer.vb">
+      <DependentUpon>facultypage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultypage.aspx.vb">
+      <DependentUpon>facultypage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="slib.aspx.designer.vb">
+      <DependentUpon>slib.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="slib.aspx.vb">
+      <DependentUpon>slib.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="sprofile.aspx.designer.vb">
+      <DependentUpon>sprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sprofile.aspx.vb">
+      <DependentUpon>sprofile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="studentlogin.aspx.designer.vb">
+      <DependentUpon>studentlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentlogin.aspx.vb">
+      <DependentUpon>studentlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="facultylogin.aspx.designer.vb">
+      <DependentUpon>facultylogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="facultylogin.aspx.vb">
+      <DependentUpon>facultylogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorpage.aspx.designer.vb">
+      <DependentUpon>errorpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorpage.aspx.vb">
+      <DependentUpon>errorpage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="studentreg.aspx.designer.vb">
+      <DependentUpon>studentreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="studentreg.aspx.vb">
+      <DependentUpon>studentreg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="syllabus.aspx.designer.vb">
+      <DependentUpon>syllabus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="syllabus.aspx.vb">
+      <DependentUpon>syllabus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.vb">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.vb">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="sdata.aspx.designer.vb">
+      <DependentUpon>sdata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sdata.aspx.vb">
+      <DependentUpon>sdata.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.vb">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.vb">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="fchangepic.aspx.designer.vb">
+      <DependentUpon>fchangepic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fchangepic.aspx.vb">
+      <DependentUpon>fchangepic.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <None Include="bbaAllSem.pdf" />
+    <None Include="bcaAllSem.pdf" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52646</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

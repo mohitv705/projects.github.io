@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 0px;
+  font-family: Arial;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("sh.jpg");
+
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="background-color:LightGray;">RESTAURANT LOGIN PAGE</h1>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="r1.jpg" alt="Mountains" style="width:100%">
+      <a href="alogin.html"><h3>Login</h3></a>
+      <h3>India Restaurant</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="r4.jpg" alt="Lights" style="width:100%">
+      <a href="blogin.html"><h3>Login</h3></a>
+      <h3>OCTA</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="r3.jpg" alt="Nature" style="width:100%">
+      <a href="clogin.html"><h3>Login</h3></a>
+      <h3>Urban Masala</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="r2.jpg" alt="Mountains" style="width:100%">
+      <a href="dlogin.html"><h3>Login</h3></a>
+      <h4>Friends Of Pho - Asian Fine Dining Club</h4>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="rl.jpg" alt="Bear" style="width:100%">
+  <h3></h3>
+  <p></p>
+  <p></p>
+</div>
+
+<!-- END MAIN -->
+</div>
+</div>
+</body>
+</html>

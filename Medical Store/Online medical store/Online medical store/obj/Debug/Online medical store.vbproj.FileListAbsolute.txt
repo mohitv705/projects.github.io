@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\bin\Online medical store.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\bin\Online medical store.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\bin\Online medical store.xml
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\obj\Debug\Online_medical_store.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\obj\Debug\Online medical store.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\obj\Debug\Online medical store.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\obj\Debug\Online medical store.xml
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online medical store\Online medical store\obj\Debug\Online medical store.pdb

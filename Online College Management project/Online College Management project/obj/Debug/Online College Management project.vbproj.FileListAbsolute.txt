@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\bin\Online College Management project.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\bin\Online College Management project.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\bin\Online College Management project.xml
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\obj\Debug\Online_College_Management_project.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\obj\Debug\Online College Management project.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\obj\Debug\Online College Management project.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\obj\Debug\Online College Management project.xml
+C:\Users\User\Documents\Visual Studio 2010\Projects\Online College Management project\Online College Management project\obj\Debug\Online College Management project.pdb
